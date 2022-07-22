@@ -11,7 +11,7 @@ export default function App() {
       .then((response) => {
         set(response.data);
       });
-  });
+  }, []);
   return (
     <div className="App">
       <h1>Hello StackBlitz!</h1>
